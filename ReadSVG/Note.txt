@@ -1,0 +1,1 @@
+﻿Sử dụng smart pointer, cần c++14 trở lên
