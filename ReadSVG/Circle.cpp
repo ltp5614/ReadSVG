@@ -6,7 +6,7 @@ Circle::Circle(int cx, int cy, int r, const std::string& fill, double fill_opaci
 void Circle::render() const {
     std::cout << "Rendering Circle: cx = " << cx << ", cy = " << cy
               << ", radius = " << r << ", fill = " << fill 
-              << ", fillOpacity =" << fill_opacity 
+              << ", fillOpacity = " << fill_opacity 
               << ", stroke = " << stroke 
               << ", stroke-width = " << stroke_width 
               << ", stroke-opacity = " << stroke_opacity << std::endl;
