@@ -6,8 +6,8 @@ Ellipse::Ellipse(int cx, int cy, int rx, int ry, const std::string& fill, double
 void Ellipse::render() const {
     std::cout << "Rendering Ellipse: cx = " << cx << ", cy = " << cy
               << ", rx = " << rx << ", ry = " << ry << ", fill = " << fill
-              << ", fill-opacity =" << fill_opacity 
-              << ", stroke =" << stroke 
-              << ", stroke-width =" << stroke_width 
-              << ", stroke-opacity =" << stroke_opacity << std::endl;
+              << ", fill-opacity = " << fill_opacity 
+              << ", stroke = " << stroke 
+              << ", stroke-width = " << stroke_width 
+              << ", stroke-opacity = " << stroke_opacity << std::endl;
 }

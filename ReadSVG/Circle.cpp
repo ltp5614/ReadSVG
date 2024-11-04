@@ -8,6 +8,6 @@ void Circle::render() const {
               << ", radius = " << r << ", fill = " << fill 
               << ", fillOpacity =" << fill_opacity 
               << ", stroke = " << stroke 
-              << ", stroke-width =" << stroke_width 
-              << ", stroke-opacity =" << stroke_opacity << std::endl;
+              << ", stroke-width = " << stroke_width 
+              << ", stroke-opacity = " << stroke_opacity << std::endl;
 }

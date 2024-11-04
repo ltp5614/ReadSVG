@@ -7,5 +7,5 @@ void Line::render() const {
     std::cout << "Rendering Line: (" << x1 << ", " << y1 << ") to ("
               << x2 << ", " << y2 << "), stroke = " << stroke 
               << "stroke_width = " << stroke_width 
-              << "stoke_opacity" << stroke_opacity << std::endl;
+              << "stoke_opacity = " << stroke_opacity << std::endl;
 }
