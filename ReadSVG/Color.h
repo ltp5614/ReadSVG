@@ -18,4 +18,6 @@ class Color {
        float getAlpha();
 };
 
+bool isValidColor(int color);
+
 #endif

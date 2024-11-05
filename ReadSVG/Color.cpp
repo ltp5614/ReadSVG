@@ -45,3 +45,7 @@ Color Color::parseColor(const std::string& colorStr) {
 
 	return Color(red, green, blue, alpha);
 }
+
+bool isValidColor(int color) {
+	return (color >= 0 && color <= 255);
+}
