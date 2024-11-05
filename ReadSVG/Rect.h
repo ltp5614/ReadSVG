@@ -15,7 +15,7 @@ private:
 
 public:
     Rect(int x, int y, int width, int height, const std::string& fill, double fill_opacity, const std::string& stroke,  int stroke_width);
-    void render() const override;
+    void render(HDC hdc) const override;
 };
 
 #endif // RECT_H

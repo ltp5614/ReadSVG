@@ -15,7 +15,7 @@ private:
 
 public:
     Polygon(const std::vector<std::pair<int, int>>& points, const std::string& fill, double fill_opacity, const std::string& stroke, int stroke_width, double stroke_opacity);
-    void render() const override;
+    void render(HDC hdc) const override;
 };
 
 #endif // POLYGON_H

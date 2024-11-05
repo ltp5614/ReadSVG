@@ -6,10 +6,13 @@
 #include <vector>
 #include <sstream>
 #include <memory>
+#include <Windows.h>
+#include <gdiplus.h>
+
 
 class SVGElements {
 public:
-    virtual void render() const = 0;
+    virtual void render(HDC hdc) const = 0;
     virtual ~SVGElements() = default;
 };
 

@@ -12,7 +12,7 @@ private:
 
 public:
     Line(int x1, int y1, int x2, int y2, const std::string& stroke, int stroke_width, double stroke_opacity);
-    void render() const override;
+    void render(HDC hdc) const override;
 };
 
 #endif // LINE_H

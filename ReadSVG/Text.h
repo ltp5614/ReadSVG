@@ -12,7 +12,7 @@ private:
 
 public:
     Text(int x, int y, int font_size, const std::string& content, const std::string& fill);
-    void render() const override;
+    void render(HDC hdc) const override;
 };
 
 #endif // TEXT_H
