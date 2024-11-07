@@ -20,7 +20,7 @@ float Color::getAlpha() {
 }
 
 Color Color::parseColor(const std::string& colorStr) {
-	if (colorStr.find("rbg") != 0) {
+	if (colorStr.find("rgb") != 0) {
 		std::cout << "Invalid color data" << std::endl;
 
 		return Color(-1, -1, -1, -1.0);
